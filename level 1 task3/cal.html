@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <div class="calcu">
+            <form>
+                <div class="SHOW">
+                    <input type="text" name="SHOW">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="SHOW.value = '' ">
+                    <input type="button" value="DEL" onclick="SHOW.value = SHOW.value.tostring().slice(0,-1)">
+                    <input type="button" value="/" onclick="SHOW.value += '/' ">
+                    <input type="button" value="." onclick="SHOW.value += '.' ">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="SHOW.value += '7' ">
+                    <input type="button" value="8" onclick="SHOW.value += '8' ">
+                    <input type="button" value="9" onclick="SHOW.value += '9' ">
+                    <input type="button" value="*" onclick="SHOW.value += '*' ">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="SHOW.value += '4' ">
+                    <input type="button" value="5" onclick="SHOW.value += '5' ">
+                    <input type="button" value="6" onclick="SHOW.value += '6' ">
+                    <input type="button" value="+" onclick="SHOW.value += '+' ">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="SHOW.value += '1' ">
+                    <input type="button" value="2" onclick="SHOW.value += '2' ">
+                    <input type="button" value="3" onclick="SHOW.value += '3' ">
+                    <input type="button" value="-" onclick="SHOW.value += '-' ">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="SHOW.value += '00' ">
+                    <input type="button" value="0"  onclick="SHOW.value += '0' ">
+                    <input type="button" value="="  onclick="SHOW.value = eval(SHOW.value)" class="equ">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

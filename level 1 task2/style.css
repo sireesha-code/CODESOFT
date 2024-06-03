@@ -1,0 +1,210 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header
+{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+.logo
+{
+    font-size: 35px;
+    color: orangered;
+    font-weight: 700;
+    transition-duration: 0.4s;
+}
+.logo:hover
+{
+    color: white;
+    text-shadow: 0 0 25px white;
+    transform: scale(1.1);
+}
+span
+{
+    color: orangered;
+    font-size: xx-large;
+}
+.navb a{
+    font-size: x-large;
+    color: orangered;
+    font-weight: 600;
+    margin: 0 25px;
+    border-bottom: 3px solid transparent;
+    transition: 0.4s;
+}
+.navb a:hover,
+.navb a.act{
+    border-bottom: 3px solid whitesmoke;
+}
+.contact
+{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    font-size: larger;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.contact:hover
+{
+    background-color: white;
+    box-shadow: 0 0 25px white;
+    color: orangered;
+}
+.home
+{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241,241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12%;
+}
+.home-cont
+{
+    max-width: 800px;
+}
+.home-cont h3
+{
+    font-size: 42px;
+}
+.home-cont h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-cont p{
+    font-size: larger;
+    margin: 25px 0 30px;
+}
+.img img
+{
+    border-radius: 50%;
+    width: 330px;
+}
+::-webkit-scrollbar
+{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background:rgb(241, 241,241) ;
+}
+.about-im img
+{
+    position: relative;
+    width: 330px;
+    border-radius: 50%;
+}
+.about-cont h2{
+    text-align: left;
+    color: black;
+    font-size: 42px;
+}
+.about-cont h3
+{
+    font-size: 62px;
+    color: black;
+}
+.about-cont p{
+    color: black;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.skills h1
+{
+    background-color: burlywood;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    font-style: italic;
+}
+.skills li{
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    background-color: rgb(241, 241,241);
+}
+.projects h1
+{
+    background-color: burlywood;
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+}
+.projects li{
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    background-color: rgb(241, 241,241);
+}
+.projects p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    background-color: rgb(241, 241,241);
+}
+.contact-f h2
+{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+.contact-f form
+{
+    max-width: 50em;
+    margin: 1em auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-f form .input-b
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-f form .input-b  input,
+.contact-f form textarea
+{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(241, 241,241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
